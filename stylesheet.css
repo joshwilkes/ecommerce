@@ -1,3 +1,26 @@
 body {
-	background: gray;
+	background: lightgray;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-brand img {
+	height: 100%;
+	padding: 1px;
+	padding-right: 4px;
+	width: auto;
+}
+
+.carousel-caption p {
+	background: rgba(0, 0, 0, .4);
+}
+
+#myCarousel {
+    margin-bottom: 2em;
+}
+
+.item {
+	height: 500px;
 }

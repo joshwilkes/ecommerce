@@ -24,3 +24,11 @@ body {
 .item {
 	height: 500px;
 }
+
+#card-panel {
+	padding: 0;
+}
+
+#card-panel img {
+	width: 100%;
+}

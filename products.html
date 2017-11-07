@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstraptheme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link rel="stylesheet" href="stylesheet.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".list-group" >
 <div class="container">
 	<!-- Nav bar 
 	================================================== -->
@@ -45,24 +45,28 @@
       <div class="col-lg-3">
         <h1>Shop Name</h1>
         <div class="list-group">
-          <a href="#" class="list-group-item">Boards</a>
-          <a href="#" class="list-group-item">Boot</a>
-          <a href="#" class="list-group-item">Bindings</a>
+          <a href="#boards" class="list-group-item">Boards</a>
+          <a href="#boots" class="list-group-item">Boots</a>
+          <a href="#bindings" class="list-group-item">Bindings</a>
         </div>
       </div>
       <!-- end of left col -->
       <div class="col-lg-9">
-        <div class="row">
+        <div id="boards" class="row product-row">
+            <div class="product-heading">
+              <h1>Boards</h1>
+              <hr>
+            </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="panel panel-default">
               <div id="card-panel" class="panel-heading">
                 <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
               </div>
               <div class="panel-body">
-                <h4>
+                <h3>
                   <a href="#">Item One</a>
-                </h4>
-                <h5>$24.99</h5>
+                </h3>
+                <h4>$24.99</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
               <div class="panel-footer">
@@ -77,10 +81,10 @@
                 <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
               </div>
               <div class="panel-body">
-                <h4>
+                <h3>
                   <a href="#">Item Two</a>
-                </h4>
-                <h5>$24.99</h5>
+                </h3>
+                <h4>$24.99</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
               <div class="panel-footer">
@@ -95,10 +99,10 @@
                 <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
               </div>
               <div class="panel-body">
-                <h4>
+                <h3>
                   <a href="#">Item Three</a>
-                </h4>
-                <h5>$24.99</h5>
+                </h3>
+                <h4>$24.99</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
               <div class="panel-footer">
@@ -108,6 +112,129 @@
           </div>
           <!-- end of card -->
         </div>
+        <!-- end of right row 1 -->
+        <div id="boots" class="row product-row">
+            <div class="product-heading">
+              <h1>Boots</h1>
+              <hr>
+            </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="panel panel-default">
+              <div id="card-panel" class="panel-heading">
+                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+              </div>
+              <div class="panel-body">
+                <h3>
+                  <a href="#">Item One</a>
+                </h3>
+                <h4>$24.99</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+              <div class="panel-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="panel panel-default">
+              <div id="card-panel" class="panel-heading">
+                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+              </div>
+              <div class="panel-body">
+                <h3>
+                  <a href="#">Item Two</a>
+                </h3>
+                <h4>$24.99</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+              <div class="panel-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="panel panel-default">
+              <div id="card-panel" class="panel-heading">
+                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+              </div>
+              <div class="panel-body">
+                <h3>
+                  <a href="#">Item Three</a>
+                </h3>
+                <h4>$24.99</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+              <div class="panel-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+        </div>
+        <!-- end of right row 2 -->
+        <div id="bindings" class="row product-row">
+            <div class="product-heading">
+              <h1>Bindings</h1>
+              <hr>
+            </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="panel panel-default">
+              <div id="card-panel" class="panel-heading">
+                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+              </div>
+              <div class="panel-body">
+                <h3>
+                  <a href="#">Item One</a>
+                </h3>
+                <h4>$24.99</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+              <div class="panel-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="panel panel-default">
+              <div id="card-panel" class="panel-heading">
+                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+              </div>
+              <div class="panel-body">
+                <h3>
+                  <a href="#">Item Two</a>
+                </h3>
+                <h4>$24.99</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+              <div class="panel-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="panel panel-default">
+              <div id="card-panel" class="panel-heading">
+                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+              </div>
+              <div class="panel-body">
+                <h3>
+                  <a href="#">Item Three</a>
+                </h3>
+                <h4>$24.99</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+              <div class="panel-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+        </div>
+        <!-- end of right row 3 -->
 
       </div>
       <!-- end of right col -->

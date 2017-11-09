@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstraptheme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link rel="stylesheet" href="stylesheet.css">
 </head>
-<body data-spy="scroll" data-target=".list-group" >
+<body  >
 <div class="container">
 	<!-- Nav bar 
 	================================================== -->
@@ -44,11 +44,18 @@
     <div class="row">
       <div class="col-lg-3">
         <h1>Shop Name</h1>
-        <div class="list-group">
+<!--         <div class="list-group" data-spy="affix" data-offset-top="105">
           <a href="#boards" class="list-group-item">Boards</a>
           <a href="#boots" class="list-group-item">Boots</a>
           <a href="#bindings" class="list-group-item">Bindings</a>
-        </div>
+        </div> -->
+        <div data-spy="scroll" data-target=".nav-pills" >
+          <ul class="nav nav-pills nav-stacked sidebar" data-spy="affix" data-offset-top="105">
+            <li><a href="#boards">Boards</a></li>
+            <li><a href="#boots">Boots</a></li>
+            <li><a href="#bindings">Bindings</a></li>
+          </ul>
+      </div>
       </div>
       <!-- end of left col -->
       <div class="col-lg-9">

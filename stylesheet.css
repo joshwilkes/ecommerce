@@ -42,6 +42,41 @@ body {
 	position: relative;
 }
 
+.affix {
+  top: 20px;
+  z-index: 9999 !important;
+}
+
+/*.nav-pills {
+}*/
+
+#contact-form {
+	margin-top: 5em;
+	/*margin-left: 5em;*/
+}
+
+.form-group {
+	width: 50%;
+}
+
+.form-group label {
+	font-weight: 150;
+}
+
+textarea {
+	resize: none;
+}
+
+/*@media screen and (max-width: 810px) {
+#boards, #boots, #bindings {
+    margin-right: 150px;
+}
+}*/
+
+.affix-top {
+	min-width: 100%;
+}
+
 /*.product-heading {
 	width: 100%;
 }*/

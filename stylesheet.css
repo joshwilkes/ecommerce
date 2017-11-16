@@ -77,6 +77,9 @@ textarea {
 	min-width: 100%;
 }
 
-/*.product-heading {
-	width: 100%;
-}*/
+.modal-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}

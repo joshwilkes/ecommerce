@@ -15,7 +15,21 @@ body {
 }
 
 .carousel-caption p {
+	display: inline-block;
 	background: rgba(0, 0, 0, .4);
+	padding: .2em .2em .2em .2em;
+}
+
+.align-left {
+	float: left;
+}
+
+.align-center {
+	float: right;
+}
+
+.align-right {
+	float: right;
 }
 
 #myCarousel {
@@ -56,7 +70,7 @@ body {
 }
 
 .form-group {
-	width: 50%;
+	/*width: 50%;*/
 }
 
 .form-group label {
@@ -82,4 +96,12 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1em;
+}
+
+select option[data-default] {
+	color: #888;
+}
+
+.btn-cart {
+	margin-left: 200px;
 }

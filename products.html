@@ -17,24 +17,21 @@
   <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <img alt="Brand" src="pics/snow-mountain.png">
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+          <ul class="nav navbar-nav navbar-right">
+      <li><a href="contact.html">Contact Us</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Store <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Boards</a></li>
-                <li><a href="#">Boots</a></li>
-                <li><a href="#">Bindings</a></li>
+                <li><a href="products.html#boards">Boards</a></li>
+                <li><a href="products.html#boots">Boots</a></li>
+                <li><a href="products.html#bindings">Bindings</a></li>
               </ul>
             </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
             <li><a href="#" class="glyphicon glyphicon-shopping-cart" arid-hidden="true"></a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -45,7 +42,7 @@
    <div class="container">
     <div class="row">
       <div class="col-lg-3">
-        <h1>Shop Name</h1>
+        <h1>Products</h1>
 <!--         <div class="list-group" data-spy="affix" data-offset-top="105">
           <a href="#boards" class="list-group-item">Boards</a>
           <a href="#boots" class="list-group-item">Boots</a>
@@ -58,6 +55,7 @@
             <li><a href="#bindings">Bindings</a></li>
           </ul>
       </div>
+      
       </div>
       <!-- end of left col -->
       <div class="col-lg-9">
@@ -94,23 +92,30 @@
                 <div class="modal-body">
                   <img class="modal-img" src="pics/flow-chill-snowboard.jpg">
                   <p>You may have mastered that relaxed riding style, but you won't be lazy on the Flow Chill Snowboard. The Pop-Cam three-phase S-Camber has incredible snappy performance; yet, the Kush-Control dampens the ride to keep you grounded. Imagine riding park with a board that springs playfully but lands solidly. This is what the Flow Chill Snowboard achieves. The Re-Flex core and 7 carbon stringers combine stability with pop to make a perfect park board you will want to ride all over. Leave the chill sesh for the bar, and exhaust yourself ripping on this board.</p>
-                  <div class="dropdown">
-                    <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Size (cm)
-                      <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dLabel">
-                      <li>151</li>
-                      <li>154</li>
-                      <li>157</li>
-                    </ul>
+                </div>
+                <div class="modal-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-2">
+                        <div class="align-left">
+                          <label>Size:</label>
+                          <select>
+                            <option>151</option>
+                            <option>154</option>
+                            <option>157</option>
+                          </select> 
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="align-left">
+                          <p>
+                            <strong>Price: </strong>$409.99
+                            <button class="btn btn-primary btn-cart">Add to Cart</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <select>
-                    <option>Size</option>
-                    <option>151</option>
-                    <option>154</option>
-                    <option>157</option>
-                  </select>
                 </div>
               </div>
             </div>
@@ -127,9 +132,48 @@
                 </h3>
                 <h4>$449.95</h4>
                 <p>What do the words poppy, stable, fast and jibby all have in common? They perfectly describe the Lobster.</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal-board-2">View More</button>
               </div>
               <div class="panel-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade modal-board-2" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+            <div class="modal-dialog modal-md" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1>Flow Chill Snowboard 2018</h1>
+                  <img class="modal-img" src="pics/lobster-pro-snowboard.jpg">
+                </div>
+                <div class="modal-body">
+                  <p>What do the words poppy, stable, fast and jibby all have in common? They perfectly describe the Lobster Eiki Pro Snowboard. Eiki knows what he wants and Lobster knows how to deliver. Molding a soft flex from a carbon backed bamboo core with Lobster s signature 3BT camber profile, the Eiki Pro has mad pop while remaining stable for running into big booters or cruising hot laps. Stay fast and get wild on the Lobster Eiki Pro Snowboard.</p>
+                </div>
+                <div class="modal-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-2">
+                        <div class="align-left">
+                          <label>Size:</label>
+                          <select>
+                            <option>151</option>
+                            <option>154</option>
+                            <option>157</option>
+                          </select> 
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="align-left">
+                          <p>
+                            <strong>Price: </strong>$449.95
+                            <button class="btn btn-primary btn-cart">Add to Cart</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -145,12 +189,52 @@
                 </h3>
                 <h4>$449.99</h4>
                 <p>You know why they call it a pin tail? It's because flat-out pinning it is in this board's DNA.</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal-board-3">View More</button>
               </div>
               <div class="panel-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
               </div>
             </div>
           </div>
+          <!-- modal  -->
+          <div class="modal fade modal-board-3" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+            <div class="modal-dialog modal-md" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1>Rome Powder Snowboard 2018</h1>
+                  <img class="modal-img" src="pics/rome-powder-division-pt-snowboard.jpg">
+                </div>
+                <div class="modal-body">
+                  <p>If surf-inspired snowboarding is your style of riding, just wait until you have the Rome Powder Division MT Snowboard in your quiver. This powder-pilferer combines flow and control with its Moontail (MT) shape, ideal for varied turn shapes and terrain choices. With a 7 out of 10 on the stiffness scale, this board is comfortable arcing turns on piste, or looking down the nose of a diving board mando. Whether you're banking turns on hard pack, entering the whiteroom or tipping into a high speed chute, the Rome Powder Division MT Snowboard has a balanced combination of stability and fun you'll love.</p>
+                </div>
+                <div class="modal-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-2">
+                        <div class="align-left">
+                          <label>Size:</label>
+                          <select>
+                            <option>151</option>
+                            <option>154</option>
+                            <option>157</option>
+                          </select> 
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="align-left">
+                          <p>
+                            <strong>Price: </strong>$449.99
+                            <button class="btn btn-primary btn-cart">Add to Cart</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- end of card -->
         </div>
         <!-- end of right row 1 -->
@@ -162,17 +246,56 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="panel panel-default">
               <div id="card-panel" class="panel-heading">
-                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+                <a href="#"><img  src="pics/vans-encore-snowboard-boots.jpg" alt=""></a>
               </div>
               <div class="panel-body">
                 <h3>
-                  <a href="#">Item One</a>
+                  <a href="#">Vans Encore Snowboard Boots</a>
                 </h3>
-                <h4>$24.99</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <h4>$209.95</h4>
+                <p>Trust the classic with the Vans Encore Snowboard Boots. Easily adjustable with the Boa Coiler.</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal-boots-1">View More</button>
               </div>
               <div class="panel-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade modal-boots-1" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+            <div class="modal-dialog modal-md" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1>Vans Encore Snowboard Boots</h1>
+                  <img class="modal-img" src="pics/vans-encore-snowboard-boots.jpg">
+                </div>
+                <div class="modal-body">
+                  <p>Trust the classic with the Vans Encore Snowboard Boots. Easily adjustable with the Boa Coiler system, these boots have a medium flex that allows you to play your hand all around the mountain. The flex liner fits day one without that break in process, and the V2 footbeds have a 3D-molded anatomical shape to give you the perfect fit. Why question the standard? This season, go with what is known to work in the Vans Encore Snowboard Boots.</p>
+                </div>
+                <div class="modal-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-2">
+                        <div class="align-left">
+                          <label>Size:</label>
+                          <select>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                          </select> 
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="align-left">
+                          <p>
+                            <strong>Price: </strong>$209.95
+                            <button class="btn btn-primary btn-cart">Add to Cart</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -180,17 +303,56 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="panel panel-default">
               <div id="card-panel" class="panel-heading">
-                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+                <a href="#"><img  src="pics/adidas-tactical-adv-snowboard-boots.jpg" alt=""></a>
               </div>
               <div class="panel-body">
                 <h3>
-                  <a href="#">Item Two</a>
+                  <a href="#">Adidas Tactical Snowboard Boots</a>
                 </h3>
-                <h4>$24.99</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <h4>$350.00</h4>
+                <p>Lay siege to the mountain with the Adidas Tactical Boost Snowboard Boots.</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal-boots-2">View More</button>
               </div>
               <div class="panel-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade modal-boots-2" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+            <div class="modal-dialog modal-md" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1>Adidas Tactical Snowboard Boots</h1>
+                  <img class="modal-img" src="pics/adidas-tactical-adv-snowboard-boots.jpg">
+                </div>
+                <div class="modal-body">
+                  <p>Lay siege to the mountain with the Adidas Tactical Boost Snowboard Boots. Back with a new, innovative lace system that offers optimal tongue placement, these heat-moldable and moderate flex kicks are perfect for intermediate to advanced riders who're looking to rip the whole mountain. Cleanly styled and injected with Adidas game-changing boost™ technology, the Tactical Boost Snowboard Boots are poised to energize the way you ride.</p>
+                </div>
+                <div class="modal-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-2">
+                        <div class="align-left">
+                          <label>Size:</label>
+                          <select>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                          </select> 
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="align-left">
+                          <p>
+                            <strong>Price: </strong>$350.00
+                            <button class="btn btn-primary btn-cart">Add to Cart</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -198,14 +360,15 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="panel panel-default">
               <div id="card-panel" class="panel-heading">
-                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+                <a href="#"><img  src="pics/32-tm-three-grenier-snowboard-boots.jpg" alt=""></a>
               </div>
               <div class="panel-body">
                 <h3>
-                  <a href="#">Item Three</a>
+                  <a href="#">Thirty Two Grenier Snowboard Boots</a>
                 </h3>
-                <h4>$24.99</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <h4>$449.95</h4>
+                <p>The 32 Grenier Snowboard Boots give you all-mountain options in a sleek and sexy package.</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal-boots-3">View More</button>
               </div>
               <div class="panel-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -213,6 +376,44 @@
             </div>
           </div>
           <!-- end of card -->
+          <!-- modal  -->
+          <div class="modal fade modal-boots-3" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+            <div class="modal-dialog modal-md" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1>Thirty Two Grenier Snowboard Boots</h1>
+                  <img class="modal-img" src="pics/32-tm-three-grenier-snowboard-boots.jpg">
+                </div>
+                <div class="modal-body">
+                  <p>The 32 TM-Three Grenier Snowboard Boots give you all-mountain options in a sleek and sexy package. The Elite liner and harness give you the responsiveness and precision for steeper terrain thanks to a taller cuff design and supreme heel hold. Customizable flex inserts mean you can soften it up for a freestyle flex, and STI Energy Foam will cushion those bigger landings. With durability features like a molded toe cap and Exo Armor shell reinforcement, the 32 TM-Three Grenier Snowboard Boots will withstand even the most rugged riding. Plus, camo never goes out of style.</p>
+                </div>
+                <div class="modal-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-2">
+                        <div class="align-left">
+                          <label>Size:</label>
+                          <select>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                          </select> 
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="align-left">
+                          <p>
+                            <strong>Price: </strong>$449.95
+                            <button class="btn btn-primary btn-cart">Add to Cart</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- end of right row 2 -->
         <div id="bindings" class="row product-row">
@@ -223,17 +424,49 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="panel panel-default">
               <div id="card-panel" class="panel-heading">
-                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+                <a href="#"><img  src="pics/union-falcor-snowboard-bindings.jpg" alt=""></a>
               </div>
               <div class="panel-body">
                 <h3>
-                  <a href="#">Item One</a>
+                  <a href="#">Union Falcor Snowboard Bindings</a>
                 </h3>
-                <h4>$24.99</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <h4>$329.95</h4>
+                <p>Ride like Rice? Well, don't you at least want to? If yes, the Travis Rice engineered Union Falcor Bindings!</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal-bindings-1">View More</button>
               </div>
               <div class="panel-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade modal-bindings-1" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+            <div class="modal-dialog modal-md" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1>Union Falcor Snowboard Bindings</h1>
+                  <img class="modal-img" src="pics/union-falcor-snowboard-bindings.jpg">
+                </div>
+                <div class="modal-body">
+                  <p>Ride like Rice? Well, don't you at least want to? If yes, the Travis Rice engineered Union Falcor Snowboard Bindings are what you should be rocking this year. An incredibly innovative binding, the Falcor uses Carbon Forging to provide strength, response, and lightness all in one high-end binding. The Stage 6 Duraflex CB Base has the best strength to weight ratio in a snowboard binding to date. The forged hybrid highbacks combine asymmetry with featherlight materials, creating a ride with stability and response. When you're in terrain where your binding can't fail you, the Union Falcor Snowboard bindings are what you need.</p>
+                </div>
+                <div class="modal-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-2">
+                        <!-- no size -->
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="align-left">
+                          <p>
+                            <strong>Price: </strong>$329.95
+                            <button class="btn btn-primary btn-cart">Add to Cart</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -241,17 +474,49 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="panel panel-default">
               <div id="card-panel" class="panel-heading">
-                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+                <a href="#"><img  src="pics/flow-nx2-fusion-snowboard-bindings.jpg" alt=""></a>
               </div>
               <div class="panel-body">
                 <h3>
-                  <a href="#">Item Two</a>
+                  <a href="#">Flow NX2 Fusion Snowboard Bindings</a>
                 </h3>
-                <h4>$24.99</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <h4>$329.99</h4>
+                <p>Are you needing to replace those mangled bindings tucked away in your garage? Look no further!</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal-bindings-2">View More</button>
               </div>
               <div class="panel-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade modal-bindings-2" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+            <div class="modal-dialog modal-md" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1>Flow NX2 Fusion Snowboard Bindings</h1>
+                  <img class="modal-img" src="pics/flow-nx2-fusion-snowboard-bindings.jpg">
+                </div>
+                <div class="modal-body">
+                  <p>Are you needing to replace those mangled bindings tucked away in your garage? Look no further than the Flow NX2 Fusion Snowboard Bindings. With precision engineering and refined technology, this stiffer rear-entry binding will give you versatility on the hill. The Aluminum Alloy Rockered baseplate is the most reactive and stiff baseplate in Flow s repertoire and combined with the OC Kush Base and Heel-Pad will provide stability, comfort, and response.</p>
+                </div>
+                <div class="modal-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-2">
+                        <!-- no size -->
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="align-left">
+                          <p>
+                            <strong>Price: </strong>$329.99
+                            <button class="btn btn-primary btn-cart">Add to Cart</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -259,14 +524,15 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="panel panel-default">
               <div id="card-panel" class="panel-heading">
-                <a href="#"><img  src="http://placehold.it/200x100" alt=""></a>
+                <a href="#"><img src="pics/flow-fuse-fusion-snowboard-bindings.jpg" alt=""></a>
               </div>
               <div class="panel-body">
                 <h3>
-                  <a href="#">Item Three</a>
+                  <a href="#">Flow Fuse Fusion Snowboard Bindings</a>
                 </h3>
-                <h4>$24.99</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <h4>$279.99</h4>
+                <p>Ignite your riding with the Flow Fuse Fusion Snowboard Bindings. Now with their Fusion PowerStraps!</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".modal-bindings-3">View More</button>
               </div>
               <div class="panel-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -274,6 +540,38 @@
             </div>
           </div>
           <!-- end of card -->
+          <!-- modal  -->
+          <div class="modal fade modal-bindings-3" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+            <div class="modal-dialog modal-md" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1>Flow Fuse Fusion Snowboard Bindings</h1>
+                  <img class="modal-img" src="pics/flow-fuse-fusion-snowboard-bindings.jpg">
+                </div>
+                <div class="modal-body">
+                  <p>Ignite your riding with the Flow Fuse Fusion Snowboard Bindings. With a medium flex and Fusion PowerStraps, these bindings create the perfect balance of spring and response. The 3-D shape of the Fusion PowerStraps provides comfortable padding for your foot while also supporting your riding for a unified experience that transfers energy simply and efficiently. The modular hiback on this binding separates the lower and upper zone of the binding, which allows for pinpointed power and support. A glass-filled nylon technology on the hiback makes the bindings snappy and responsive. If you are looking for an easy to use all around great binding, grab yourself a pair of the Flow Fuse Fusion Snowboard Bindings.</p>
+                </div>
+                <div class="modal-footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-2">
+                        <!-- no size -->
+                      </div>
+                      <div class="col-xs-4">
+                        <div class="align-left">
+                          <p>
+                            <strong>Price: </strong>$279.99
+                            <button class="btn btn-primary btn-cart">Add to Cart</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of modal -->
         </div>
         <!-- end of right row 3 -->
 

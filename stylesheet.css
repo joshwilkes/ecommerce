@@ -84,9 +84,14 @@ body {
 	width: 100%;
 }
 
-.button .btn .btn-primary {
-	background-color: #5CFFE8;
-	border-color: #5CFFE8;
+.btn-primary {
+	background-color: #5C9AFF;
+	border-color: #5C9AFF;
+}
+
+.btn-primary:hover {
+	background-color: #54A1BB;
+	border-color: #54A1BB;
 }
 
 .affix {
